@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
     
@@ -15,21 +17,28 @@
         <img class="logoAlura" src="res/logoAlura.png" alt="Logo da Alura">
     </header>
 
-    <section>
-        <textarea class="textoantes" cols="40" rows="20"></textarea>
-        <button class="criptografar">Criptografar</button>
-        <button class="descriptografar">Descriptografar</button>
-    </section>
-    
-    
-    <section>
-        <textarea class="textodepois" cols="40" rows="20"></textarea>
-    </section>
+    <main>
+        <section class="sessaoEntrada">
+            <div class="divUsuario">
+                <textarea class="textoEntrada" cols="41" rows="5" placeholder="Digite seu texto"></textarea>
 
-    <button>
+                <div class="botoesInfo">
+                    <div class="info">
+                        <h6 class="info">Apenas letras minúsculas e sem acento.</h6>
+                    </div>
+                    <div class="botoes">
+                        <button class="criptografar">Criptografar</button>
+                        <button class="descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    </button>
+        <section class="sessaoSaida">
+            <textarea class="textoSaida" cols="20" rows="10" placeholder="Digite seu texto"></textarea>
+            <button class="copiar">Copiar</button>
+        </section>>
+    </main>
 
-    
 </body>
 </html>
